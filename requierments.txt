@@ -6,3 +6,6 @@ torch
 Pillow
 numpy
 groq
+pypdf
+requests
+python-dotenv
