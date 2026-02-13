@@ -1,5 +1,5 @@
 streamlit
-pypdf
+pypdf==4.2.0
 faiss-cpu
 numpy
 requests
