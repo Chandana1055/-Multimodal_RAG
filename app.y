@@ -1,3 +1,8 @@
+
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 import streamlit as st
 import time
 import json
@@ -10,7 +15,7 @@ from config import (
     MAX_HISTORY
 )
 
-from rag.embeddings import get_jina_embeddings
+from rag.embedding import get_jina_embeddings
 from rag.vision import describe_image
 from rag.chunking import chunk_text
 from rag.retriever import FAISSRetriever
