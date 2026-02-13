@@ -6,7 +6,8 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import streamlit as st
 import time
 import json
-from pypdf import PdfReader
+from PyPDF2 import PdfReader
+
 
 from config import (
     GROQ_MODEL,
